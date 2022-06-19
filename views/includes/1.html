@@ -1,3 +1,45 @@
 <main>
-  мэйн
+
+  <section id="todo">
+
+    <h2>To Do</h2>
+
+    <form action="" id="form">
+      <button type="button" class="status" disabled></button>
+      <div id="form__input-wrapper">
+        <input id="form__input" type="text" placeholder="Add task...">
+      </div>
+      <button type="submit" id="form__submit"></button>
+    </form>
+
+    <div class="item">
+      <button class="status"></button>
+      <div class="item__name">Bake cupcakes</div>
+      <button class="item__delete"></button>
+    </div>
+
+    <div class="item">
+      <button class="status"></button>
+      <div class="item__name">Buy butter & eggs</div>
+      <button class="item__delete"></button>
+    </div>
+
+  </section>
+
+  <section id="done">
+
+    <h2>Done</h2>
+
+    <div class="item">
+      <button class="status status--active"></button>
+      <div class="item__name">Send invite out for party</div>
+    </div>
+
+    <div class="item">
+      <button class="status status--active"></button>
+      <div class="item__name">Celebrate!</div>
+    </div>
+
+  </section>
+
 </main>
